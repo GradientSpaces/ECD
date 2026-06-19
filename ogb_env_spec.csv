@@ -1,0 +1,14 @@
+env_name,family,scale,train_traj_len,obs_dim_full,goal_dim,plan_obs_select_dim,plan_sm_horizon,plan_len_ovlp,plan_n_diff_steps,plan_use_padbuf,plan_extra_pad,plan_max_path_length,plan_max_ori_path_len,invdyn_horizon,invdyn_max_path_length,eval_probs_h5,eval_default_n_comp,eval_repl_thres,eval_max_n_repl,eval_ada_minus_n_wp,eval_cond2_extra,eval_n_max_steps
+antmaze-giant-stitch-v0,antM,Gi,200,29,2,"(0,1)",160,56,512,True,64,300,0,12,220,data/ogb_maze/ev_probs/ogb_antM_Gi_ev_prob_numEp20_eSdSt0.hdf5,9,4,10,50,150,2000
+antmaze-large-stitch-v0,antM,Lg,200,29,2,"(0,1)",160,56,512,True,64,300,0,12,220,data/ogb_maze/ev_probs/ogb_antM_Lg_ev_prob_numEp20_eSdSt0.hdf5,6,4,10,50,150,1000
+antmaze-medium-stitch-v0,antM,Me,200,29,2,"(0,1)",160,56,512,True,64,300,0,12,220,data/ogb_maze/ev_probs/ogb_antM_Me_ev_prob_numEp20_eSdSt0.hdf5,3,4,10,50,150,1000
+antsoccer-arena-stitch-v0,antSoc,Ar,200,42,17,"(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16)",160,56,512,True,64,300,0,120,400,data/ogb_maze/ev_probs/ogb_antSoc_Ar_ev_prob_numEp20_eSdSt0.hdf5,5,4,10,50,50,5000
+antsoccer-medium-stitch-v0,antSoc,Me,500,42,17,"(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16)",160,56,512,True,64,600,200,100,700,data/ogb_maze/ev_probs/ogb_antSoc_Me_ev_prob_numEp20_eSdSt0.hdf5,6,6,10,0,10,5000
+humanoidmaze-giant-stitch-v0,humM,Gi,400,69,2,"(0,1)",336,128,1000,True,64,600,0,80,550,data/ogb_maze/ev_probs/ogb_HumM_Gi_ev_prob_numEp20_eSdSt0_full_jnt.hdf5,11,10,10,300,150,8000
+humanoidmaze-large-stitch-v0,humM,Lg,400,69,2,"(0,1)",336,128,1000,True,64,600,0,80,550,data/ogb_maze/ev_probs/ogb_HumM_Lg_ev_prob_numEp20_eSdSt0_full_jnt_same2_Jan11.hdf5,6,10,10,300,150,5000
+humanoidmaze-medium-stitch-v0,humM,Me,400,69,2,"(0,1)",336,128,1000,True,64,600,0,80,550,data/ogb_maze/ev_probs/ogb_HumM_Me_ev_prob_numEp20_eSdSt0_full_jnt.hdf5,4,10,10,300,150,5000
+pointmaze-giant-stitch-v0,pointM,Gi,200,2,2,"(0,1)",160,56,1000,True,64,300,0,12,220,data/ogb_maze/ev_probs/ogb_pointM_Gi_ev_prob_numEp20_eSdSt0.hdf5,9,1,10,10,150,10000
+pointmaze-large-stitch-v0,pointM,Lg,200,2,2,"(0,1)",160,56,1000,True,64,300,0,12,220,data/ogb_maze/ev_probs/ogb_pointM_Lg_ev_prob_numEp20_eSdSt0.hdf5,6,1,0,0,150,1000
+pointmaze-medium-stitch-v0,pointM,Me,200,2,2,"(0,1)",160,56,1000,True,64,300,0,12,220,data/ogb_maze/ev_probs/ogb_pointM_Me_ev_prob_numEp20_eSdSt0.hdf5,3,1,0,0,150,1000
+antmaze-medium-stitch-v0-o15d,antM,Me,200,29,15,"(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14)",160,56,512,True,64,300,0,12,220,data/ogb_maze/ev_probs/ogb_antM_Me_ev_prob_numEp20_eSdSt0.hdf5,3,4,10,50,150,1000
+antmaze-large-stitch-v0-o15d,antM,Lg,200,29,15,"(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14)",160,56,512,True,64,300,0,12,220,data/ogb_maze/ev_probs/ogb_antM_Lg_ev_prob_numEp20_eSdSt0.hdf5,6,4,10,50,150,1000

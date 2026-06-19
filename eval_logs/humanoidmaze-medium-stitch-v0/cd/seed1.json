@@ -1,0 +1,454 @@
+{
+  "env_name": "humanoidmaze-medium-stitch-v0",
+  "method": "CD",
+  "eval_config": {
+    "env": "humanoidmaze-medium-stitch-v0",
+    "plan_n_ep": 100,
+    "ep_st_idx": 0,
+    "seed": 1,
+    "ev_n_comp": 4,
+    "var_temp": 1.0,
+    "cond_w": 2.0,
+    "use_ddim": 1,
+    "ddim_steps": 50,
+    "ddim_eta": 1.0,
+    "ddim_t_power": 1.0,
+    "n_act_per_waypnt": 1,
+    "b_size_per_prob": 40,
+    "pd_gain": 5.0,
+    "is_replan": "ada_dist",
+    "n_max_steps": 5000,
+    "maze_repair_plan": "none",
+    "fused_traj_alloc": 10000,
+    "ev_top_n": 5,
+    "ev_pick_type": "first",
+    "ev_cp_infer_t_type": "interleave",
+    "tjb_blend_type": "exp",
+    "tjb_exp_beta": 2.0,
+    "is_inv_train_mode": 0,
+    "ecd_base_scale": 1.0,
+    "ecd_react_scale": 1.0,
+    "ecd_react_clip": 0.0,
+    "ecd_markov_rho": 0.25,
+    "ecd_markov_type": "laplacian",
+    "ecd_prior_phi_weight": 1.0,
+    "ecd_prior_psi_weight": 0.25,
+    "ecd_prior_boundary_scale": 1.0,
+    "ecd_rank_type": "x0_consistency",
+    "ecd_rank_invdyn_stride": 4,
+    "ecd_rank_invdyn_max_steps": 96,
+    "ecd_rank_invdyn_batch": 4096,
+    "ecd_resample_steps": 1,
+    "ecd_cd_warm_frac": 0.0,
+    "ecd_cover_weight_type": "uniform",
+    "ecd_cover_blend_beta": 2.0,
+    "ecd_boundary_view": "shared",
+    "ecd_chunk_react_type": "markov"
+  },
+  "summary": {
+    "num_ep": 100,
+    "success_rate": 88.0
+  },
+  "per_episode": [
+    {
+      "ep_idx": 0,
+      "success": true
+    },
+    {
+      "ep_idx": 1,
+      "success": true
+    },
+    {
+      "ep_idx": 2,
+      "success": true
+    },
+    {
+      "ep_idx": 3,
+      "success": true
+    },
+    {
+      "ep_idx": 4,
+      "success": true
+    },
+    {
+      "ep_idx": 5,
+      "success": true
+    },
+    {
+      "ep_idx": 6,
+      "success": true
+    },
+    {
+      "ep_idx": 7,
+      "success": true
+    },
+    {
+      "ep_idx": 8,
+      "success": true
+    },
+    {
+      "ep_idx": 9,
+      "success": true
+    },
+    {
+      "ep_idx": 10,
+      "success": true
+    },
+    {
+      "ep_idx": 11,
+      "success": true
+    },
+    {
+      "ep_idx": 12,
+      "success": true
+    },
+    {
+      "ep_idx": 13,
+      "success": true
+    },
+    {
+      "ep_idx": 14,
+      "success": true
+    },
+    {
+      "ep_idx": 15,
+      "success": true
+    },
+    {
+      "ep_idx": 16,
+      "success": true
+    },
+    {
+      "ep_idx": 17,
+      "success": true
+    },
+    {
+      "ep_idx": 18,
+      "success": false
+    },
+    {
+      "ep_idx": 19,
+      "success": true
+    },
+    {
+      "ep_idx": 20,
+      "success": true
+    },
+    {
+      "ep_idx": 21,
+      "success": true
+    },
+    {
+      "ep_idx": 22,
+      "success": true
+    },
+    {
+      "ep_idx": 23,
+      "success": true
+    },
+    {
+      "ep_idx": 24,
+      "success": true
+    },
+    {
+      "ep_idx": 25,
+      "success": false
+    },
+    {
+      "ep_idx": 26,
+      "success": true
+    },
+    {
+      "ep_idx": 27,
+      "success": true
+    },
+    {
+      "ep_idx": 28,
+      "success": true
+    },
+    {
+      "ep_idx": 29,
+      "success": true
+    },
+    {
+      "ep_idx": 30,
+      "success": true
+    },
+    {
+      "ep_idx": 31,
+      "success": true
+    },
+    {
+      "ep_idx": 32,
+      "success": false
+    },
+    {
+      "ep_idx": 33,
+      "success": false
+    },
+    {
+      "ep_idx": 34,
+      "success": true
+    },
+    {
+      "ep_idx": 35,
+      "success": true
+    },
+    {
+      "ep_idx": 36,
+      "success": true
+    },
+    {
+      "ep_idx": 37,
+      "success": true
+    },
+    {
+      "ep_idx": 38,
+      "success": true
+    },
+    {
+      "ep_idx": 39,
+      "success": false
+    },
+    {
+      "ep_idx": 40,
+      "success": true
+    },
+    {
+      "ep_idx": 41,
+      "success": true
+    },
+    {
+      "ep_idx": 42,
+      "success": true
+    },
+    {
+      "ep_idx": 43,
+      "success": true
+    },
+    {
+      "ep_idx": 44,
+      "success": true
+    },
+    {
+      "ep_idx": 45,
+      "success": true
+    },
+    {
+      "ep_idx": 46,
+      "success": true
+    },
+    {
+      "ep_idx": 47,
+      "success": true
+    },
+    {
+      "ep_idx": 48,
+      "success": true
+    },
+    {
+      "ep_idx": 49,
+      "success": true
+    },
+    {
+      "ep_idx": 50,
+      "success": true
+    },
+    {
+      "ep_idx": 51,
+      "success": true
+    },
+    {
+      "ep_idx": 52,
+      "success": false
+    },
+    {
+      "ep_idx": 53,
+      "success": true
+    },
+    {
+      "ep_idx": 54,
+      "success": false
+    },
+    {
+      "ep_idx": 55,
+      "success": true
+    },
+    {
+      "ep_idx": 56,
+      "success": true
+    },
+    {
+      "ep_idx": 57,
+      "success": true
+    },
+    {
+      "ep_idx": 58,
+      "success": false
+    },
+    {
+      "ep_idx": 59,
+      "success": true
+    },
+    {
+      "ep_idx": 60,
+      "success": true
+    },
+    {
+      "ep_idx": 61,
+      "success": true
+    },
+    {
+      "ep_idx": 62,
+      "success": true
+    },
+    {
+      "ep_idx": 63,
+      "success": true
+    },
+    {
+      "ep_idx": 64,
+      "success": true
+    },
+    {
+      "ep_idx": 65,
+      "success": true
+    },
+    {
+      "ep_idx": 66,
+      "success": true
+    },
+    {
+      "ep_idx": 67,
+      "success": false
+    },
+    {
+      "ep_idx": 68,
+      "success": false
+    },
+    {
+      "ep_idx": 69,
+      "success": true
+    },
+    {
+      "ep_idx": 70,
+      "success": true
+    },
+    {
+      "ep_idx": 71,
+      "success": true
+    },
+    {
+      "ep_idx": 72,
+      "success": false
+    },
+    {
+      "ep_idx": 73,
+      "success": true
+    },
+    {
+      "ep_idx": 74,
+      "success": true
+    },
+    {
+      "ep_idx": 75,
+      "success": true
+    },
+    {
+      "ep_idx": 76,
+      "success": true
+    },
+    {
+      "ep_idx": 77,
+      "success": true
+    },
+    {
+      "ep_idx": 78,
+      "success": true
+    },
+    {
+      "ep_idx": 79,
+      "success": true
+    },
+    {
+      "ep_idx": 80,
+      "success": true
+    },
+    {
+      "ep_idx": 81,
+      "success": true
+    },
+    {
+      "ep_idx": 82,
+      "success": true
+    },
+    {
+      "ep_idx": 83,
+      "success": true
+    },
+    {
+      "ep_idx": 84,
+      "success": true
+    },
+    {
+      "ep_idx": 85,
+      "success": true
+    },
+    {
+      "ep_idx": 86,
+      "success": true
+    },
+    {
+      "ep_idx": 87,
+      "success": true
+    },
+    {
+      "ep_idx": 88,
+      "success": true
+    },
+    {
+      "ep_idx": 89,
+      "success": true
+    },
+    {
+      "ep_idx": 90,
+      "success": true
+    },
+    {
+      "ep_idx": 91,
+      "success": true
+    },
+    {
+      "ep_idx": 92,
+      "success": true
+    },
+    {
+      "ep_idx": 93,
+      "success": false
+    },
+    {
+      "ep_idx": 94,
+      "success": true
+    },
+    {
+      "ep_idx": 95,
+      "success": true
+    },
+    {
+      "ep_idx": 96,
+      "success": true
+    },
+    {
+      "ep_idx": 97,
+      "success": true
+    },
+    {
+      "ep_idx": 98,
+      "success": true
+    },
+    {
+      "ep_idx": 99,
+      "success": true
+    }
+  ]
+}

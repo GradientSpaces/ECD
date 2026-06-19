@@ -1,0 +1,26 @@
+ECD: Energy-based Compositional Diffusion Planning
+Copyright 2026 ECD Authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+It includes and/or is derived from the following third-party software, used
+under the MIT License. The original copyright and permission notices are
+retained as required by that license.
+
+--------------------------------------------------------------------------------
+OGBench (https://github.com/seohongpark/ogbench)
+The MIT License (MIT)
+Copyright (c) 2024 OGBench Authors
+Copyright (c) 2025 Yunhao Luo
+
+--------------------------------------------------------------------------------
+CompDiffuser (https://github.com/YunhaoLuo/CompDiffuser)
+MIT License
+Copyright (c) 2025 Yunhao Luo
+
+--------------------------------------------------------------------------------
+The MIT License grants permission, free of charge, to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the software, provided
+that the above copyright notices and this permission notice are included in all
+copies or substantial portions of the software. The software is provided "as is",
+without warranty of any kind.

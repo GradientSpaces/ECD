@@ -1,0 +1,436 @@
+{
+ "env_name": "humanoidmaze-giant-stitch-v0",
+ "method": "cdgs",
+ "eval_config": {
+  "env": "humanoidmaze-giant-stitch-v0",
+  "plan_n_ep": 100,
+  "ep_st_idx": 0,
+  "seed": 0,
+  "ev_n_comp": 11,
+  "var_temp": 1.0,
+  "cond_w": 2.0,
+  "use_ddim": 1,
+  "ddim_steps": 50,
+  "ddim_eta": 1.0,
+  "ddim_t_power": 1.0,
+  "n_act_per_waypnt": 1,
+  "b_size_per_prob": 40,
+  "pd_gain": 5.0,
+  "is_replan": "ada_dist",
+  "maze_repair_plan": "none",
+  "fused_traj_alloc": 12000,
+  "ev_top_n": 5,
+  "ev_pick_type": "first",
+  "ev_cp_infer_t_type": "gsc_resampling",
+  "gsc_u": 4,
+  "tjb_blend_type": "exp",
+  "tjb_exp_beta": 2.0,
+  "is_inv_train_mode": 0
+ },
+ "summary": {
+  "num_ep": 100,
+  "success_rate": 27.0
+ },
+ "per_episode": [
+  {
+   "ep_idx": 0,
+   "success": false
+  },
+  {
+   "ep_idx": 1,
+   "success": false
+  },
+  {
+   "ep_idx": 2,
+   "success": false
+  },
+  {
+   "ep_idx": 3,
+   "success": false
+  },
+  {
+   "ep_idx": 4,
+   "success": false
+  },
+  {
+   "ep_idx": 5,
+   "success": true
+  },
+  {
+   "ep_idx": 6,
+   "success": false
+  },
+  {
+   "ep_idx": 7,
+   "success": false
+  },
+  {
+   "ep_idx": 8,
+   "success": false
+  },
+  {
+   "ep_idx": 9,
+   "success": true
+  },
+  {
+   "ep_idx": 10,
+   "success": false
+  },
+  {
+   "ep_idx": 11,
+   "success": false
+  },
+  {
+   "ep_idx": 12,
+   "success": true
+  },
+  {
+   "ep_idx": 13,
+   "success": true
+  },
+  {
+   "ep_idx": 14,
+   "success": false
+  },
+  {
+   "ep_idx": 15,
+   "success": false
+  },
+  {
+   "ep_idx": 16,
+   "success": false
+  },
+  {
+   "ep_idx": 17,
+   "success": false
+  },
+  {
+   "ep_idx": 18,
+   "success": false
+  },
+  {
+   "ep_idx": 19,
+   "success": false
+  },
+  {
+   "ep_idx": 20,
+   "success": true
+  },
+  {
+   "ep_idx": 21,
+   "success": true
+  },
+  {
+   "ep_idx": 22,
+   "success": true
+  },
+  {
+   "ep_idx": 23,
+   "success": true
+  },
+  {
+   "ep_idx": 24,
+   "success": false
+  },
+  {
+   "ep_idx": 25,
+   "success": true
+  },
+  {
+   "ep_idx": 26,
+   "success": true
+  },
+  {
+   "ep_idx": 27,
+   "success": false
+  },
+  {
+   "ep_idx": 28,
+   "success": true
+  },
+  {
+   "ep_idx": 29,
+   "success": false
+  },
+  {
+   "ep_idx": 30,
+   "success": true
+  },
+  {
+   "ep_idx": 31,
+   "success": true
+  },
+  {
+   "ep_idx": 32,
+   "success": true
+  },
+  {
+   "ep_idx": 33,
+   "success": false
+  },
+  {
+   "ep_idx": 34,
+   "success": true
+  },
+  {
+   "ep_idx": 35,
+   "success": true
+  },
+  {
+   "ep_idx": 36,
+   "success": true
+  },
+  {
+   "ep_idx": 37,
+   "success": true
+  },
+  {
+   "ep_idx": 38,
+   "success": true
+  },
+  {
+   "ep_idx": 39,
+   "success": true
+  },
+  {
+   "ep_idx": 40,
+   "success": false
+  },
+  {
+   "ep_idx": 41,
+   "success": false
+  },
+  {
+   "ep_idx": 42,
+   "success": true
+  },
+  {
+   "ep_idx": 43,
+   "success": false
+  },
+  {
+   "ep_idx": 44,
+   "success": false
+  },
+  {
+   "ep_idx": 45,
+   "success": false
+  },
+  {
+   "ep_idx": 46,
+   "success": false
+  },
+  {
+   "ep_idx": 47,
+   "success": false
+  },
+  {
+   "ep_idx": 48,
+   "success": false
+  },
+  {
+   "ep_idx": 49,
+   "success": true
+  },
+  {
+   "ep_idx": 50,
+   "success": false
+  },
+  {
+   "ep_idx": 51,
+   "success": false
+  },
+  {
+   "ep_idx": 52,
+   "success": false
+  },
+  {
+   "ep_idx": 53,
+   "success": false
+  },
+  {
+   "ep_idx": 54,
+   "success": false
+  },
+  {
+   "ep_idx": 55,
+   "success": false
+  },
+  {
+   "ep_idx": 56,
+   "success": false
+  },
+  {
+   "ep_idx": 57,
+   "success": false
+  },
+  {
+   "ep_idx": 58,
+   "success": true
+  },
+  {
+   "ep_idx": 59,
+   "success": false
+  },
+  {
+   "ep_idx": 60,
+   "success": false
+  },
+  {
+   "ep_idx": 61,
+   "success": false
+  },
+  {
+   "ep_idx": 62,
+   "success": false
+  },
+  {
+   "ep_idx": 63,
+   "success": false
+  },
+  {
+   "ep_idx": 64,
+   "success": false
+  },
+  {
+   "ep_idx": 65,
+   "success": false
+  },
+  {
+   "ep_idx": 66,
+   "success": false
+  },
+  {
+   "ep_idx": 67,
+   "success": false
+  },
+  {
+   "ep_idx": 68,
+   "success": false
+  },
+  {
+   "ep_idx": 69,
+   "success": false
+  },
+  {
+   "ep_idx": 70,
+   "success": false
+  },
+  {
+   "ep_idx": 71,
+   "success": false
+  },
+  {
+   "ep_idx": 72,
+   "success": false
+  },
+  {
+   "ep_idx": 73,
+   "success": false
+  },
+  {
+   "ep_idx": 74,
+   "success": false
+  },
+  {
+   "ep_idx": 75,
+   "success": false
+  },
+  {
+   "ep_idx": 76,
+   "success": false
+  },
+  {
+   "ep_idx": 77,
+   "success": false
+  },
+  {
+   "ep_idx": 78,
+   "success": false
+  },
+  {
+   "ep_idx": 79,
+   "success": false
+  },
+  {
+   "ep_idx": 80,
+   "success": false
+  },
+  {
+   "ep_idx": 81,
+   "success": true
+  },
+  {
+   "ep_idx": 82,
+   "success": false
+  },
+  {
+   "ep_idx": 83,
+   "success": false
+  },
+  {
+   "ep_idx": 84,
+   "success": false
+  },
+  {
+   "ep_idx": 85,
+   "success": false
+  },
+  {
+   "ep_idx": 86,
+   "success": false
+  },
+  {
+   "ep_idx": 87,
+   "success": false
+  },
+  {
+   "ep_idx": 88,
+   "success": false
+  },
+  {
+   "ep_idx": 89,
+   "success": false
+  },
+  {
+   "ep_idx": 90,
+   "success": false
+  },
+  {
+   "ep_idx": 91,
+   "success": true
+  },
+  {
+   "ep_idx": 92,
+   "success": true
+  },
+  {
+   "ep_idx": 93,
+   "success": false
+  },
+  {
+   "ep_idx": 94,
+   "success": false
+  },
+  {
+   "ep_idx": 95,
+   "success": false
+  },
+  {
+   "ep_idx": 96,
+   "success": true
+  },
+  {
+   "ep_idx": 97,
+   "success": false
+  },
+  {
+   "ep_idx": 98,
+   "success": false
+  },
+  {
+   "ep_idx": 99,
+   "success": false
+  }
+ ]
+}
