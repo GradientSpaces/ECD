@@ -1,5 +1,5 @@
 # ECD: Energy-based Compositional Diffusion Planning
-[![arXiv](https://img.shields.io/badge/arXiv-2606.00000-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2606.00000) [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Checkpoints-yellow)](https://huggingface.co/gradient-spaces/ECD) [![Demo](https://img.shields.io/badge/▶_demo-notebook-success)](demo.ipynb) [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.21646-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2606.21646) [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Checkpoints-yellow)](https://huggingface.co/gradient-spaces/ECD) [![Demo](https://img.shields.io/badge/▶_demo-notebook-success)](demo.ipynb) [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ### ICML 2026
 
